@@ -1,29 +1,30 @@
-aside {
+ main {
+  max-width: 800px;
+  margin: 0 auto;
+ }
+
+ aside {
   width: 300px;
   margin: 20px auto;
   border: 2px solid #ccc;
   padding: 15px;
-  background-color: #f8f8f8;
+  background-color: #f9f9f9;
   color: #333;
 }
 
 aside img {
-  width: 200px;
-  height: auto; /* keeps image aspect ratio */
-}
-
-main img {
-  width: 150px;
+   width: 200px;
   height: auto;
-  border-radius: 10px;
-}
-main {
-  max-width: 800px;
+  display: block;
   margin: 0 auto;
 }
 
-footer {
-  margin-top: 20px;
-  border-top: 2px solid #ccc;
-  text-align: center;
+main img{
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+p {
+  padding: 0;
 }
